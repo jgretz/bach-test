@@ -18,6 +18,7 @@ import ReduxTest from './redux';
 import RecomposeTest from './recompose';
 import MaterialTest from './material';
 import FormikTest from './formik';
+import ReactHookFormTest from './reactHookForm';
 
 type PublicProps = {
   name: string;
@@ -73,6 +74,9 @@ const Test = ({name, count, greeting, handleIncrementClick}: Props) => (
     </div>
     <div>
       <FormikTest />
+    </div>
+    <div>
+      <ReactHookFormTest age={25} />
     </div>
   </div>
 );

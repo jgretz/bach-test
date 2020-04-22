@@ -16,6 +16,7 @@ type Props = {
 
 const WithFormik = ({formik: {values, handleChange, handleBlur}, handleFormSubmit}: Props) => (
   <div>
+    <h1>Formik</h1>
     <input name="name" onChange={handleChange} onBlur={handleBlur} value={values.name} />
     <input name="address" onChange={handleChange} onBlur={handleBlur} value={values.address} />
     <input name="age" onChange={handleChange} onBlur={handleBlur} value={values.age} />
