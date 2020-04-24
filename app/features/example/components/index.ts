@@ -3,8 +3,10 @@
 export {default as CallbackAndState} from './callbackAndState';
 export {default as Context} from './context';
 export {default as Formik} from './formik';
+export {default as GenericCompose} from './genericCompose';
 export {default as Hooks} from './hooks';
 export {default as Material} from './material';
+export {default as PublicPropsCompose} from './publicPropsCompose';
 export {default as ReactHookForm} from './reactHookForm';
 export {default as Recompose} from './recompose';
 export {default as Reducer} from './reducer';

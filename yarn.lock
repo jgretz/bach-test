@@ -1297,10 +1297,10 @@
   resolved "https://registry.yarnpkg.com/@truefit/bach-redux/-/bach-redux-2.0.2.tgz#b6871892dec2666962b4b66bdc069b23b99537d1"
   integrity sha512-nWsExpccGCMXxjAy+U0SefxEyOpTngLLA5l6OoOWAaEU3BUq3NND61Whj6df1wG0IsKOLdha2tcZhje3av0KpA==
 
-"@truefit/bach@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-2.0.3.tgz#27b05daca205ac46074b61377c608f7043e4d376"
-  integrity sha512-IXB9KXmk1M5QH9Ro40XiZ0w7wGYscTu0s98cy+yCpUUvM3oCoUGaEWtP4/GptoO1L6QtUT0EKA3fS2D2y62AVA==
+"@truefit/bach@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-2.0.4.tgz#36cd3e489e30f4d885698ff5b3d9f573c89991bd"
+  integrity sha512-eJ6h1NiiYP/Q98l7jWzYGtHdK7HDbuLe0w/2I0QWVyV0wIw6iGj+hQuk2iny6x/yuXCCebVyVLTY0CwKRqKEaw==
 
 "@truefit/http-utils@^2.0.2":
   version "2.0.2"

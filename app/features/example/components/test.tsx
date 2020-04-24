@@ -19,6 +19,8 @@ import RecomposeTest from './recompose';
 import MaterialTest from './material';
 import FormikTest from './formik';
 import ReactHookFormTest from './reactHookForm';
+import PublicPropsTest from './publicPropsCompose';
+import GenericComposeTest from './genericCompose';
 
 type PublicProps = {
   name: string;
@@ -77,6 +79,12 @@ const Test = ({name, count, greeting, handleIncrementClick}: Props) => (
     </div>
     <div>
       <ReactHookFormTest age={25} />
+    </div>
+    <div>
+      <PublicPropsTest message="Public Props" />
+    </div>
+    <div>
+      <GenericComposeTest />
     </div>
   </div>
 );

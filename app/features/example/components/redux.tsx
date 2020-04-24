@@ -13,7 +13,7 @@ const WithSelector = ({todos}: Props) => (
   <div>
     <h1>withSelector</h1>
     <ul>
-      {todos.map(todo => (
+      {todos.map((todo) => (
         <li key={todo}>{todo}</li>
       ))}
     </ul>
