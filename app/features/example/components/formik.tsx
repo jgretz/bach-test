@@ -10,6 +10,8 @@ type FormValues = {
 };
 
 type Props = {
+  yell: () => void;
+
   handleFormSubmit: () => void;
   formik: FormikProps<FormValues>;
 };
@@ -27,16 +29,26 @@ const WithFormik = ({formik: {values, handleChange, handleBlur}, handleFormSubmi
   </div>
 );
 
-export default compose(
-  withFormik({
-    initialValues: {name: 'John Doe', address: '', age: 0},
-    onSubmit: (values: FormValues) => {
-      console.log(values); // eslint-disable-line
-    },
-  }),
+const yell = () => () => {
+  console.log('YEEEEAAAAAAAHAHHAHAH'); // eslint-disable-line
+};
 
-  // this is needed to handle the type disparity between formik and onClick
-  withCallback<Props>('handleFormSubmit', ({formik: {handleSubmit}}: Props) => () => {
-    handleSubmit();
-  }),
+const handleFormSubmit = ({formik: {handleSubmit}}: Props) => () => {
+  handleSubmit();
+};
+
+const formikConfig = ({yell}: Props) => ({
+  initialValues: {name: 'John Doe', address: '', age: 0},
+  onSubmit: (values: FormValues) => {
+    yell();
+
+    console.log(values); // eslint-disable-line
+  },
+});
+
+export default compose(
+  withCallback('yell', yell),
+
+  withFormik(formikConfig),
+  withCallback<Props>('handleFormSubmit', handleFormSubmit),
 )(WithFormik);
