@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable @typescript-eslint/ban-ts-ignore */
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import path from 'path';
 import autoprefixer from 'autoprefixer';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
@@ -45,7 +45,7 @@ export default {
       exclude: /node_modules/,
     }),
     new ForkTsCheckerWebpackPlugin(),
-    new ReactRefreshWebpackPlugin({disableRefreshCheck: true}),
+    new ReactRefreshWebpackPlugin(),
   ],
 
   resolve: {

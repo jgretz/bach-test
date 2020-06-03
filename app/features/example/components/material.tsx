@@ -1,14 +1,38 @@
 import React from 'react';
 import {compose} from '@truefit/bach';
-import {withTheme} from '@truefit/bach-material-ui';
+import {withTheme, withStyles, withMediaQuery} from '@truefit/bach-material-ui';
 import {Theme} from '@material-ui/core';
 
 type Props = {
+  classes: {
+    center: string;
+  };
   theme: Theme;
+
+  isMediumUp: boolean;
 };
 
-const Example = ({theme}: Props) => (
-  <div style={{fontSize: theme.typography.fontSize}}>Hello World</div>
+const Example = ({classes, theme}: Props) => (
+  <div className={classes.center}>
+    <div style={{fontSize: theme.typography.fontSize}}>Hello Material</div>
+  </div>
 );
 
-export default compose(withTheme())(Example);
+const isMediumUp = (theme: Theme) => theme.breakpoints.up('md');
+
+const styles = {
+  center: ({isMediumUp}: Props) => ({
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+
+    color: isMediumUp ? '#ff0000' : '#00ff00',
+  }),
+};
+
+export default compose(
+  withTheme(),
+
+  withMediaQuery('isMediumUp', isMediumUp),
+  withStyles(styles),
+)(Example);
