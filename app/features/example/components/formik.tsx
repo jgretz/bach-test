@@ -1,6 +1,6 @@
 import React from 'react';
 import {compose, withCallback} from '@truefit/bach';
-import {withFormik} from '@truefit/bach-formik';
+import {withFormik, withFormikContext} from '@truefit/bach-formik';
 import {FormikProps} from 'formik';
 
 type FormValues = {
@@ -9,6 +9,18 @@ type FormValues = {
   age: number;
 };
 
+// inner test
+type WithFormContextProps = {
+  values: FormValues;
+};
+
+const WithFormikContextContent = ({values}: WithFormContextProps) => (
+  <div>{JSON.stringify(values)}</div>
+);
+
+const WithFormikContext = compose(withFormikContext(['values']))(WithFormikContextContent);
+
+// Form
 type Props = {
   yell: () => void;
 
@@ -20,6 +32,9 @@ const WithFormik = ({formik: {values, handleChange, handleBlur}, handleFormSubmi
   return (
     <div>
       <h1>Formik</h1>
+      <h2>
+        <WithFormikContext />
+      </h2>
       <input name="name" onChange={handleChange} onBlur={handleBlur} value={values.name} />
       <input name="address" onChange={handleChange} onBlur={handleBlur} value={values.address} />
       <input name="age" onChange={handleChange} onBlur={handleBlur} value={values.age} />
