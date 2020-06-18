@@ -35,10 +35,13 @@ module.exports = {
     'react/display-name': 0,
     'react/jsx-no-target-blank': 0,
     'react/jsx-props-no-spreading': 0,
+    'react-hooks/exhaustive-deps': 0,
 
     'import/no-named-as-default': 0,
 
     '@typescript-eslint/explicit-function-return-type': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 0,
+    'eslint-disable @typescript-eslint/explicit-module-boundary-types': 0,
 
     'no-shadow': 0,
   },
