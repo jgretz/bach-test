@@ -80,4 +80,9 @@ function Composed<T extends string | number>({initialValue, ...props}: WrapperPr
   return <Component {...props} initialValue={initialValue} />;
 }
 
-export default () => <Composed<string> initialValue="Josh" />;
+export default () => (
+  <>
+    <Hooked initialValue="Josh" />
+    <Composed<string> initialValue="Josh" />
+  </>
+);

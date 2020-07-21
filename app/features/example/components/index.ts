@@ -7,6 +7,7 @@ export {default as GenericCompose} from './genericCompose';
 export {default as GenericComposeEffect} from './genericComposeEffect';
 export {default as Hooks} from './hooks';
 export {default as Material} from './material';
+export {default as Nested} from './nested';
 export {default as PublicPropsCompose} from './publicPropsCompose';
 export {default as ReactHookForm} from './reactHookForm';
 export {default as Recompose} from './recompose';
