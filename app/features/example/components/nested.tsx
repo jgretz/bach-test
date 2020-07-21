@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, {useState} from 'react';
 import {compose, withEffect} from '@truefit/bach';
 import {withProps, withHandlers} from '@truefit/bach-recompose';
