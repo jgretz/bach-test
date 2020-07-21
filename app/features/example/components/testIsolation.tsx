@@ -1,8 +1,8 @@
 import React from 'react';
-import GenericComposeEffect from './genericComposeEffect';
+import Recompose from './recompose';
 
 export default () => (
   <div>
-    <GenericComposeEffect />
+    <Recompose />
   </div>
 );

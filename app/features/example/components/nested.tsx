@@ -56,7 +56,7 @@ function App({user, authorised}: Props) {
 }
 
 // Enhancer
-const enhance = compose<Props>(
+const enhance = compose(
   withProps(db()),
   withProps<Props>({
     username: (props) => props.user,

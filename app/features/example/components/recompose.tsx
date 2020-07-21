@@ -1,5 +1,5 @@
 import React from 'react';
-import {compose, withState, withCallback} from '@truefit/bach';
+import {compose, withState, withCallback, withEffect} from '@truefit/bach';
 import {memo} from '@truefit/bach-recompose';
 
 type MemoProps = {
@@ -29,6 +29,9 @@ export default compose(
   withCallback<WrapperProps>('increment', ({count, setCount}) => () => {
     setCount(count + 1);
   }),
+  withEffect(() => {
+    console.log('Recompose Mounted');
+  }, []),
 )(({count, increment}: WrapperProps) => (
   <div>
     <Memo count={count} />
