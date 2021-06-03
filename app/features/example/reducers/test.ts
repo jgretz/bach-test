@@ -1,3 +1,5 @@
 export type TestState = [];
 
-export default (state: [] = []) => state;
+const INITIAL = ['Something', 'Something Else'];
+
+export default (state = INITIAL) => state;

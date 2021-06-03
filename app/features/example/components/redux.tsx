@@ -1,5 +1,5 @@
 import React from 'react';
-import {compose} from '@truefit/bach';
+import {compose, withState} from '@truefit/bach';
 import {withSelector} from '@truefit/bach-redux';
 import {ApplicationState} from '../../../rootReducer';
 
@@ -7,6 +7,7 @@ const todoSelector = (state: ApplicationState) => state.features.example.test;
 
 type Props = {
   todos: string[];
+  foo: number;
 };
 
 const WithSelector = ({todos}: Props) => (
@@ -20,4 +21,7 @@ const WithSelector = ({todos}: Props) => (
   </div>
 );
 
-export default compose(withSelector<Props, string[]>('todos', todoSelector))(WithSelector);
+export default compose(
+  withState('foo', 'setFoo', 0),
+  withSelector<Props, string[]>('todos', todoSelector, ['foo']),
+)(WithSelector);
