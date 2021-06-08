@@ -1,6 +1,6 @@
 import React from 'react';
 import {compose, withCallback} from '@truefit/bach';
-import {withForm, FormContextValues} from '@truefit/bach-react-hook-form';
+import {withForm, UseFormReturn} from '@truefit/bach-react-hook-form';
 
 type FormValues = {
   name: string;
@@ -13,7 +13,7 @@ type PublicProps = {
 };
 
 type InternalProps = {
-  formContext: FormContextValues<FormValues>;
+  formContext: UseFormReturn<FormValues>;
   onSubmit: (values: FormValues) => void;
 };
 
@@ -23,9 +23,9 @@ const WithForm = ({formContext: {register, handleSubmit}, onSubmit}: Props) => (
   <div>
     <h1>React Hook Form</h1>
     <form onSubmit={handleSubmit(onSubmit)}>
-      <input name="name" ref={register} />
-      <input name="address" ref={register} />
-      <input name="age" ref={register} />
+      <input {...register('name')} />
+      <input {...register('address')} />
+      <input {...register('age')} />
 
       <button type="submit">Submit</button>
     </form>

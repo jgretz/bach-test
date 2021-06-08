@@ -1093,7 +1093,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.12.1":
+"@babel/runtime@^7.12.1", "@babel/runtime@^7.9.2":
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
   integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
@@ -1495,13 +1495,13 @@
     native-url "^0.2.6"
     schema-utils "^2.6.5"
 
-"@reduxjs/toolkit@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.4.0.tgz#ee2e2384cc3d1d76780d844b9c2da3580d32710d"
-  integrity sha512-hkxQwVx4BNVRsYdxjNF6cAseRmtrkpSlcgJRr3kLUcHPIAMZAmMJkXmHh/eUEGTMqPzsYpJLM7NN2w9fxQDuGw==
+"@reduxjs/toolkit@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.6.0.tgz#0a17c6941c57341f8b31e982352b495ab69d5add"
+  integrity sha512-eGL50G+Vj5AG5uD0lineb6rRtbs96M8+hxbcwkHpZ8LQcmt0Bm33WyBSnj5AweLkjQ7ZP+KFRDHiLMznljRQ3A==
   dependencies:
-    immer "^7.0.3"
-    redux "^4.0.0"
+    immer "^9.0.1"
+    redux "^4.1.0"
     redux-thunk "^2.3.0"
     reselect "^4.0.0"
 
@@ -1519,42 +1519,42 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@truefit/bach-formik@^2.0.3":
+"@truefit/bach-formik@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@truefit/bach-formik/-/bach-formik-2.0.5.tgz#f4c9819d5b57920a138f39ee050d00b852c87cfb"
+  integrity sha512-mYX+GEMvBfo0Aegkgm6rsfHpauKFhkdeXwSwiO33wje3fSH0m0Iw96/jTWd15jspK6646vMfnAjGbV+eviE25w==
+
+"@truefit/bach-material-ui@^2.0.3":
   version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-formik/-/bach-formik-2.0.3.tgz#b10bffa328c7dd0c52de756d2daa65ccabe1a7b9"
-  integrity sha512-gKzY8zXZjSHMMEwo6BChxpYzyWIw7Yw23bqjvFAA2K0DWu0Xz1i9a0krcXb6TUkYdZelIvD63F7TJ0U52rSziQ==
+  resolved "https://registry.yarnpkg.com/@truefit/bach-material-ui/-/bach-material-ui-2.0.3.tgz#ec5a82ac2fe5f974018e879205fbcb202fa10083"
+  integrity sha512-6kcbITqrC8ELos/rjRcDJPQ02Lwu2kJFqc/XJDqLl6sH6pUE5DwoxudSncuJO+5YcvtEwqTv3KkV5l3mYRcQZg==
 
-"@truefit/bach-material-ui@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-material-ui/-/bach-material-ui-2.0.1.tgz#11aac29a2be26e7b83e7233c908b845164309c4c"
-  integrity sha512-DKfpjjMpdrM/hwsDioBXw3NNzW9Ohp1gnNG9Q0TixBZxalAry4pGmH6wFUf8aApDEWR6GtzT+Pk5BtIG6/S2xg==
+"@truefit/bach-react-hook-form@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@truefit/bach-react-hook-form/-/bach-react-hook-form-2.2.1.tgz#0b92b8aeb09f0634560d39fe0a51c925c4157a68"
+  integrity sha512-4fg1Y/i0zBQ8pKnbVbhM+H9DrVRG6ErommBZTBzpoDGdz5tvAQ0qcsrpodiRTM4I/Upn1YERevun2KqiBNxhtg==
 
-"@truefit/bach-react-hook-form@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-react-hook-form/-/bach-react-hook-form-2.0.2.tgz#6866a2b75e6715132777a3e69bf7f9dbe519bd34"
-  integrity sha512-FyEfnAbXDLLLTH4mbniSbsIh5wKtT+jEXuUAzQOicfZFa4HWm/ITDamNrC9nDXf7gj+tLRnyRJ3VTYbVYY1pgg==
+"@truefit/bach-recompose@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@truefit/bach-recompose/-/bach-recompose-2.0.7.tgz#dde32d6dcea5577cf53129071f141e336f1948f2"
+  integrity sha512-wcsb2OVQlZtVn5qXQPD/OwiWVCRIaCCXz1Ra+RhPqqsrK/z/HtMBwedUBakCPCgdt7LVdKDmIRZ4c8HvrENvew==
 
-"@truefit/bach-recompose@^2.0.4":
+"@truefit/bach-redux@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@truefit/bach-redux/-/bach-redux-2.0.5.tgz#42a86baa72886f5977475b3c8b35e7add28a3c7c"
+  integrity sha512-xMS6vy3Zw3xud1Zn6J18zl5sW3IlC3jthqMjcBWX8t52GhN1B+AWIa7PuH+zTeeVP1uJ4XyhgojC1PTenKzoKw==
+
+"@truefit/bach@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-2.0.10.tgz#7349e44f5bf0368933346ac806314e8b3f2ce79e"
+  integrity sha512-FDGBrQD1Y6pCjjhbF5p9LKle5APmTJul4InJf6k5qMMc++zxlQiI0zUlwNXFhemrQEicOv2z/W80Pfvqfu/cfQ==
+
+"@truefit/http-utils@^2.0.4":
   version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-recompose/-/bach-recompose-2.0.4.tgz#dede761e96c1a52b4d5b73c864b7e8a82958c575"
-  integrity sha512-cZJXohv5aYZquKcl4O9dNK/7oyT6/Bnqjz8Cj3qoqUqF+oNtNR6HRbpJJ5XKDiT3di7Zu2oFH95/MTl9oJPZMw==
-
-"@truefit/bach-redux@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-redux/-/bach-redux-2.0.2.tgz#b6871892dec2666962b4b66bdc069b23b99537d1"
-  integrity sha512-nWsExpccGCMXxjAy+U0SefxEyOpTngLLA5l6OoOWAaEU3BUq3NND61Whj6df1wG0IsKOLdha2tcZhje3av0KpA==
-
-"@truefit/bach@^2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-2.0.8.tgz#e29c40e365f43fb14fece610e9e33ff71281f4a2"
-  integrity sha512-/QRvDBaB0a8oYPu1K/+zmUUxK8OcPaMlvj/Pu4haXW5SEDcvwb/eva+dXhDHPrmoEE3C04tzh4qzauKLE6qopg==
-
-"@truefit/http-utils@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@truefit/http-utils/-/http-utils-2.0.2.tgz#71b564cde130dd16649d84166b76c10ec71d7916"
-  integrity sha512-g/d5xrphK2FRTZXPjd6WUwDOCUFgtkRCtsA9QWcQGOa4Pc4qnlrjSqnUF9lsRTh2hchqBkZmfsMhYjV8GDlhCQ==
+  resolved "https://registry.yarnpkg.com/@truefit/http-utils/-/http-utils-2.0.4.tgz#f312cf002c156b474bcb470624efa6fba6a3f1c0"
+  integrity sha512-ls+SjJsgrEoKFK41h3I7r123wRt0kr01lkacG2PM3u3eu1KDRDMjJUaf6Jt9LDXOmLR1qGCrr6hCcsSmRzIs8Q==
   dependencies:
-    axios "^0.19.2"
+    axios "^0.21.1"
 
 "@truefit/wall-e@^0.0.3":
   version "0.0.3"
@@ -2616,6 +2616,13 @@ axios@^0.19.0, axios@^0.19.2:
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
   dependencies:
     follow-redirects "1.5.10"
+
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 axobject-query@^2.1.2:
   version "2.2.0"
@@ -5098,6 +5105,11 @@ follow-redirects@^1.0.0:
   dependencies:
     debug "^3.0.0"
 
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -5133,17 +5145,16 @@ form-data@~2.3.2:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
-formik@^2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/formik/-/formik-2.1.5.tgz#de5bbbe35543fa6d049fe96b8ee329d6cd6892b8"
-  integrity sha512-bWpo3PiqVDYslvrRjTq0Isrm0mFXHiO33D8MS6t6dWcqSFGeYF52nlpCM2xwOJ6tRVRznDkL+zz/iHPL4LDuvQ==
+formik@^2.2.9:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/formik/-/formik-2.2.9.tgz#8594ba9c5e2e5cf1f42c5704128e119fc46232d0"
+  integrity sha512-LQLcISMmf1r5at4/gyJigGn0gOwFbeEAlji+N9InZF6LIMXnFNkO42sCI8Jt84YZggpD4cPWObAZaxpEFtSzNA==
   dependencies:
     deepmerge "^2.1.1"
     hoist-non-react-statics "^3.3.0"
-    lodash "^4.17.14"
-    lodash-es "^4.17.14"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
     react-fast-compare "^2.0.1"
-    scheduler "^0.18.0"
     tiny-warning "^1.0.2"
     tslib "^1.10.0"
 
@@ -5838,10 +5849,10 @@ ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-immer@^7.0.3:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.5.tgz#8af347db5b60b40af8ae7baf1784ea4d35b5208e"
-  integrity sha512-TtRAKZyuqld2eYjvWgXISLJ0ZlOl1OOTzRmrmiY8SlB0dnAhZ1OiykIDL5KDFNaPHDXiLfGQFNJGtet8z8AEmg==
+immer@^9.0.1:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.2.tgz#83e4593df9914acaecfd9fac6a8601ef44d883fc"
+  integrity sha512-mkcmzLtIfSp40vAqteRr1MbWNSoI7JE+/PB36FNPoSfJ9RQRmNKuTYCjKkyXyuq3Dgn07HuJBrwJd4ZSk2yUbw==
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -7228,10 +7239,10 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.14:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
-  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
+lodash-es@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
 lodash.camelcase@^4.3.0:
   version "4.3.0"
@@ -7337,6 +7348,11 @@ lodash@^4.17.19:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^3.0.0:
   version "3.0.0"
@@ -9172,10 +9188,10 @@ react-fast-compare@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
-react-hook-form@^5.7.2:
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-5.7.2.tgz#a84e259e5d37dd30949af4f79c4dac31101b79ac"
-  integrity sha512-bJvY348vayIvEUmSK7Fvea/NgqbT2racA2IbnJz/aPlQ3GBtaTeDITH6rtCa6y++obZzG6E3Q8VuoXPir7QYUg==
+react-hook-form@^7.8.2:
+  version "7.8.2"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.8.2.tgz#c8126c7a72660312394a5eb50b0a6a61da25aef4"
+  integrity sha512-3O1WT8zA1vzWSeQCQ8WR6skcVNiY32QpZde/SBmfKpRpihCXfwO9xJWmfOveP1C5Yv9z4CPrjPBiJAFHjVAs9A==
 
 react-is@^16.12.0, react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
@@ -9364,13 +9380,20 @@ redux-thunk@^2.3.0:
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
   integrity sha512-km6dclyFnmcvxhAcrQV2AkZmPQjzPDjgVlQtR0EQjxZPyJ0BnMf3in1ryuR8A2qU0HldVRfxYXbFSKlI3N7Slw==
 
-redux@^4.0.0, redux@^4.0.5:
+redux@^4.0.0:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
   integrity sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
   dependencies:
     loose-envify "^1.4.0"
     symbol-observable "^1.2.0"
+
+redux@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.1.0.tgz#eb049679f2f523c379f1aff345c8612f294c88d4"
+  integrity sha512-uI2dQN43zqLWCt6B/BMGRMY6db7TTY4qeHHfGeKb3EOhmOKjU3KdWvNLJyqaHRksv/ErdNH7cFZWg9jXtewy4g==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
@@ -9741,14 +9764,6 @@ saxes@^5.0.0:
   integrity sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==
   dependencies:
     xmlchars "^2.2.0"
-
-scheduler@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
-  integrity sha512-agTSHR1Nbfi6ulI0kYNK0203joW2Y5W4po4l+v03tOoiJKpTBbxpNhWDvqc/4IcOw+KLmSiQLTasZ4cab2/UWQ==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 scheduler@^0.19.1:
   version "0.19.1"
